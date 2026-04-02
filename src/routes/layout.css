@@ -1,2 +1,32 @@
-@import 'tailwindcss';
+@import 'tailwindcss/theme';
+@import 'tailwindcss/utilities';
 @plugin '@tailwindcss/typography';
+@import '@picocss/pico/css/pico.min.css';
+@import '@picocss/pico/css/pico.colors.min.css';
+
+:root {
+    --background-color-dark: #13111c;
+    --background-color-light: #d1cce4;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+h1.title {
+    text-align: center;
+}
+main {
+    min-height: 100svh;
+}
+
+[data-theme='dark'] {
+    * {
+        background-color: var(--background-color-dark);
+    }
+}
+
+[data-theme='light'] {
+    * {
+        background-color: var(--background-color-light);
+    }
+}

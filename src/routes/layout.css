@@ -5,28 +5,57 @@
 @import '@picocss/pico/css/pico.colors.min.css';
 
 :root {
-	--background-color-dark: #13111c;
-	--background-color-light: #d1cce4;
+    --background-color-dark: #13111c;
+    --background-color-light: #d1cce4;
 }
+
+html, body {
+    min-height: 100svh;
+    margin: 0;
+    padding: 0;
+}
+
+[data-theme='dark'], [data-theme='dark'] body {
+    background-color: var(--background-color-dark) !important;
+}
+
+[data-theme='light'], [data-theme='light'] body {
+    background-color: var(--background-color-light) !important;
+}
+
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 h1.title {
-	text-align: center;
+    text-align: center;
 }
+
+section#background {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+[data-theme='dark'] section#background {
+    background-color: var(--background-color-dark);
+}
+
+[data-theme='light'] section#background {
+    background-color: var(--background-color-light);
+}
+
 main {
-	min-height: 100svh;
+    min-height: 100svh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overscroll-behavior: none;
+    margin-bottom: 0 !important;
 }
 
-[data-theme='dark'] {
-	* {
-		background-color: var(--background-color-dark);
-	}
-}
-
-[data-theme='light'] {
-	* {
-		background-color: var(--background-color-light);
-	}
+html {
+    scroll-behavior: smooth;
 }

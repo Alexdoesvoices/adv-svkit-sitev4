@@ -10,7 +10,6 @@ section.projects {
 	--github-button-background: #1c3552;
 	--moreinfo-button-background: #ff5b5b;
 	--tag-text-color: #ffffff;
-	--border-card-width: 10px;
 }
 .projects-container {
 	display: grid;

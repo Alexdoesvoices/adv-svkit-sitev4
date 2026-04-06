@@ -1,5 +1,21 @@
 export const projects = [
 	{
+		visability: '',
+
+		title: 'Example',
+		description: 'This is a example post for my project visability thingy.',
+		image: '',
+		link: '#visable',
+		github: 'https://github.com/Alexdoesvoices/discordjs-adev-bot',
+		more: 'more',
+		tags: [
+			{ name: 'Example', color: '#f472b6' },
+			{ name: 'Example 2', color: '#3178c6' }
+		]
+	},
+	{
+		visability: '#visable',
+
 		title: 'Alexdoesvoices DiscordJs Bot',
 		description: 'Discord bot built with the BUN runtime and the Discord.js framework.',
 		image: '',
@@ -12,6 +28,8 @@ export const projects = [
 		]
 	},
 	{
+		visability: '#visable',
+
 		title: 'Alexdoesvoices Collection',
 		description:
 			'Documentation site used as a digital databse of all items in my various collections.',

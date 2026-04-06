@@ -14,8 +14,8 @@ section.projects {
 .projects-container {
 	display: grid;
 	/* Forces exactly two columns that split the available space 50/50 */
-	grid-template-columns: 1fr 1fr;
-
+	/* grid-template-columns: 1fr 1fr; */
+	justify-content: center;
 	/* Spacing between cards */
 	gap: 20px;
 
@@ -34,8 +34,15 @@ div.project-card {
 
 	/* Keep your existing styles */
 	padding-bottom: 30px;
-	/* border: 1px solid var(--bg-border); */
+	border: 1px solid var(--bg-border);
 	border-radius: 8px;
+}
+div.project-info {
+	div.text-top {
+		h3 {
+			text-align: center;
+		}
+	}
 }
 .tags {
 	display: flex;

@@ -1,0 +1,14 @@
+[data-theme='light'] {
+img.image {
+    filter: drop-shadow(0 0 10px rgb(0, 0, 0));
+}
+}
+
+div.image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom:calc(100px)
+}  

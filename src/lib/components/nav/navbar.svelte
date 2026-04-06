@@ -59,6 +59,7 @@
 		</div>
 		<div class="navlinks">
 			<a href={resolve('/')} class="link"> Home / </a>
+			<!-- <a href={resolve('/docs')} class="link"> Docs / </a> -->
 			<a href={resolve('/projects')} class="link"> Projects / </a>
 			<a href={resolve('/links')} class="link"> Links / </a>
 		</div>

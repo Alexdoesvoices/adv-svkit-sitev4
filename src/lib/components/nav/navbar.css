@@ -5,13 +5,11 @@ section#navbar {
 		width: 100%;
 		padding-top: 8px;
 		position: fixed;
-		/* background-color: black; */
 	}
 	div.themetoggle {
 		padding-left: 30px;
 	}
 	div.navlinks {
-		/* position: fixed; */
 		right: 30px;
 		padding-right: 30px;
 	}

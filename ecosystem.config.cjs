@@ -1,7 +1,7 @@
 module.exports = {
 	apps: [
 		{
-			name: 'app-name',
+			name: 'adv-svkit-sitev4',
 			script: 'build/index.js',
 			env: {
 				NODE_ENV: 'production',

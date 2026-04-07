@@ -36,7 +36,7 @@ export const projects = [
 		image: '',
 		link: 'https://collections.alexdoesvoices.com',
 		github: 'https://github.com/Alexdoesvoices/alexdoesvoices-collection',
-		more: '#none',
+		more: '/projects/collection-site',
 		tags: [
 			{ name: 'Astro Starlight', color: '#28243a' },
 			{ name: 'Bun', color: '#f472b6' },

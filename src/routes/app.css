@@ -5,7 +5,7 @@
 @import '@picocss/pico/css/pico.colors.min.css';
 
 :root {
-	--background-color-dark: #212842;
+	--background-color-dark: #13111c;
 	--background-color-light: #d1cce4;
 	--pico-background-color: #13111c;
 	--light-theme-text: #2d3138;

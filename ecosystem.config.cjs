@@ -9,7 +9,7 @@ module.exports = {
 				NODE_ENV: 'production',
 				PORT: 7109,
 				HOST: '0.0.0.0',
-				ORIGIN: 'https://alexdoesvoices.com',
+				ORIGIN: 'https://alt.alexdoesvoices.com',
 				ADDRESS_HEADER: 'x-forwarded-for',
 				PROTOCOL_HEADER: 'x-forwarded-proto'
 			},

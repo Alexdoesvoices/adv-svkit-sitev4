@@ -42,5 +42,5 @@ export const projects = [
 			{ name: 'Bun', color: '#f472b6' },
 			{ name: 'Caddy', color: '#034a18' }
 		]
-	},
+	}
 ];
